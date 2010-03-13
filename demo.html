@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<title>demo</title>
+	<script type="text/javascript" charset="utf-8" src="jquery.1.4.2.js"></script>
+	<script type="text/javascript" charset="utf-8" src="jStackOverflow.js"></script>
+	<script type="text/javascript" charset="utf-8">
+			var superUser = $.jStackOverflow.flair({domain:"superuser.com", id: 30162, parentId:'#su-flair'});
+			var stackOverflow = $.jStackOverflow.flair({domain:"stackoverflow.com", id: 55954, parentId:'#so-flair'});
+	</script>
+	
+</head>
+<body id="demo" onload="">
+	<h1>JSONP Flair Test Page Example</h1>
+	        <div id="so-flair">
+	                <div class="gravatar"></div>
+	                <div class="displayname"></div>
+	                <div class="reputation">Reputation: </div>
+	                <div class="badges">Badges: </div>
+	                <a class="profileurl"></a>
+	        </div>
+			<br/> <br/>
+			<div id="su-flair">
+	                <div class="gravatar"></div>
+	                <div class="displayname"></div>
+	                <div class="reputation">Reputation: </div>
+	                <div class="badges">Badges: </div>
+	                <a class="profileurl"></a>
+	        </div>
+	
+</body>
+</html>
